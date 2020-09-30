@@ -3,23 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Danny Chavez">
-    <meta name="description" content="">
+    <meta name="description" content="This website was created for the Unit 3 Test.">
+    
+    <meta name="og:title" content="Test part 2">
+    <meta name="og:description" content="This website was created for the Unit 3 Test.">
+    <meta name="og:image" content="images/checkbox.png">
 
 
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
-    <meta property="og:title" content="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <title>Home Page</title>
+        <title>Home Page</title>
 
 </head>
 
 <body style="background-image: url(lightBackground.png);">
 
+    <section>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </section>
 
+    <h1>Welcome to my site!</h1>
+        <em>On this site we you can take out short quiz and you then you can fill out our survey.</em><br>
+        <p><b>only way we can get better is by hearing what you have to say!</b></p>
+
+    <h3>Log In Below</h3>
+    <form action="#" method="post">
+        <ul>
+            <section>
+            <fieldset>
+                <legend>User Information</legend>
     
+                <ul>
+                    <li>
+                        <label for="User Name">
+                        User Name
+                        <input type="text" id="user.name" name="UserInfo">
+                        </label>
+                    </li>
+
+                    <li>
+                        <label for="Password">
+                        Password
+                        <input type="text" id="user.Password" name="UserInfo">
+                        </label>
+                    </li>
+
+                    <li>
+                        <label for="User Identification number">
+                            User Identification Number
+                        <input type="text" id="user.ID" name="UserIDnum">
+                        </label>
+                    </li>
+
+                    <li>
+                        <label for="Today's Date">
+                            Today's Date
+                        <input type="text" id="user.date" name="UserDate">
+                        </label>
+                    </li>
+
+                        <label for="Submit">
+                            <button type="submit" name="submit" value="Submit" >Submit</button>
+                        </label>
+
+                </ul>
+            </fieldset>
+
+            </section>
+        </ul>
+    </form>
+
     <footer>
         <p>(c) Copyright 2020 by Daniel Chavez. All Rights Reserved</p>
     </footer>
